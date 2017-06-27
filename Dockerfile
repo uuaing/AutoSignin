@@ -26,7 +26,7 @@ RUN apk del alpine-sdk\
 # Create the log file to be able to run tail
 RUN touch /var/log/cron.log
 
-WORKDIR /usr/src/app/AutoSignin 
+#WORKDIR /usr/src/app/AutoSignin 
 ADD crontab.txt /crontab.txt
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod 755 /entrypoint.sh
