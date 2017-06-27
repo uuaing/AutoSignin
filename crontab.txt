@@ -1,3 +1,4 @@
 #!/bin/sh
 
-2 0 * * * python /usr/src/app/AutoSignin/SMZDM.py >> /usr/src/app/AutoSignin/SMZDM.log
+0 3 * * * python /usr/src/app/AutoSignin/SMZDM.py >> /usr/src/app/AutoSignin/SMZDM.log
+0 10 * * * python /usr/src/app/AutoSignin/SMZDM.py >> /usr/src/app/AutoSignin/SMZDM.log
