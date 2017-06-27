@@ -11,6 +11,9 @@ RUN apk update \
     
 ENV TZ=Asia/Shanghai
 
+ENV SMZDM_USER_NAME=''
+ENV SMZDM_USER_PASSWD=''
+
 RUN git clone https://github.com/uuaing/AutoSignin AutoSignin
 ADD https://raw.githubusercontent.com/uuaing/AutoSignin/master/requirements.txt .
 
