@@ -1,0 +1,3 @@
+#!/bin/sh
+
+2 0 * * * python /usr/src/app/AutoSignin/SMZDM.py >> /usr/src/app/AutoSignin/SMZDM.log
